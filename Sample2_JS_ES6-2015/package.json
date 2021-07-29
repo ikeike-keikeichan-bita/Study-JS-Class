@@ -1,0 +1,37 @@
+{
+  "name": "Sample2_JS_ES6-2015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Sample2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Keisuke Ikeda",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-undef": "warn"
+    }
+  }
+}
