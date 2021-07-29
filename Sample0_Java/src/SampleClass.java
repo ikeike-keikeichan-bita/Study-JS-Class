@@ -1,7 +1,7 @@
 package src;
 
 /**
- * 
+ * サンプルクラス
  * @author Keisuke Ikeda
  * @version 1.0
  */
@@ -18,7 +18,7 @@ public class SampleClass extends Object
 	public Integer instanceValue = 2;
 
 	/**
-	 * コンストラクタ
+	 * 
 	 */
 	public SampleClass(Integer arguments){
 		this.instanceValue = arguments;
